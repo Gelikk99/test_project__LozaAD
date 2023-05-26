@@ -1,0 +1,172 @@
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-info-language2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 773px) {
+    .skills-lists {
+        flex-wrap: wrap;
+        max-width: 470px;
+        margin: 0 auto;
+    }
+
+    .skills-list {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background-color: #FFFFFF;
+        padding: 66px 28px 0 26px;
+        display: none;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu-item {
+        margin-bottom: 68px;
+    }
+
+    .menu-item a {
+        font-size: 34px;
+    }
+
+
+    .main-info-language {
+        display: none;
+    }
+
+
+    .main-info {
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-width: 317px;
+        margin: 0 auto;
+        height: 187px;
+    }
+
+
+    .main-info-name {
+        margin-bottom: 23px;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .main-image2 {
+        display: block;
+        margin-top: 37px;
+        text-align: center;
+    }
+
+    .burger {
+        display: flex;
+        align-self: flex-end;
+        padding-top: 12px;
+    }
+
+    .menu.open {
+        display: block;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 71px;
+        left: 324px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about {
+        padding: 81px 0 31px 0;
+    }
+
+    .skills {
+        padding: 83px 0 19px 0;
+    }
+
+    .skills-title {
+        margin-bottom: 50px;
+    }
+
+    .skills-text {
+        margin-bottom: 70px;
+    }
+
+    .skills-lists {
+        max-width: 300px;
+        justify-content: center;
+    }
+
+    .portfolio {
+        padding: 81px 0 81px 0;
+    }
+
+    .portfolio-title {
+        margin-bottom: 65px;
+    }
+
+    .portfolio-item:not(:last-child) {
+        margin-bottom: 77px;
+    }
+
+    .portfolio-item-image {
+        margin-bottom: 33px;
+    }
+
+    .footer {
+        padding: 82px 0 95px 0;
+    }
+
+    .footer-title {
+        margin-bottom: 27px;
+    }
+
+    .footer-text {
+        margin-bottom: 39px;
+    }
+
+    .footer-socials {
+        max-width: 316px;
+    }
+
+    .footer-info {
+        margin-top: 48px;
+        font-size: 18px;
+    }
+
+    .button {
+        margin-bottom: 48px;
+        width: 316px;
+    }
+
+    .main-image2 img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 351px) {
+    .close {
+        left: 280px;
+    }
+}
